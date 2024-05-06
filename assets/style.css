@@ -53,9 +53,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body {
+/*body {
 
-}
+}*/
 section {
 	margin-block: 6em;
 }
@@ -136,10 +136,6 @@ header {
 	position: absolute;
 	bottom: 40px;
 	display: flex;
-	border-radius: 100%;
-	background-color: white;
-	width: 13px;
-	height: 13px;
 }
 .dot {
 	margin-inline: 5px;
@@ -148,7 +144,8 @@ header {
 	background-color: #ffffff00;
 	border: 3px solid #fff;
 	border-radius: 100%;
-	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
 }
 .dot_selected {
 	background-color: #fff;
